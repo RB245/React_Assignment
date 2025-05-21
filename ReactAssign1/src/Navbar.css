@@ -1,0 +1,25 @@
+.Navbar{
+    background-color:darkcyan;
+    padding: 10px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+    position: fixed;
+    width:100%;
+    top: 0;
+    left: 0;
+    /* margin-bottom: 25px; */
+}
+
+.links{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.links li a{
+    color: white;
+    font-size: 20px;
+}
+
