@@ -1,0 +1,15 @@
+.offers{
+    display: block;
+    flex: 1;
+    padding: 40px;
+    text-align: center;
+    background-color:rgb(184, 222, 255) ;
+    min-height: 50vh;
+    width:100%;
+    box-sizing: border-box;
+}
+
+.heading{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}

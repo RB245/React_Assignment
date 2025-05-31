@@ -1,8 +1,13 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  /* max-width: 1250px; */
+  margin: 0;
+  padding: 0;
   text-align: center;
+  width:100%;
+}
+
+.heading{
+  padding-top: 65px;;
 }
 
 .logo {
@@ -42,8 +47,14 @@
 }
 
 .app{
-  padding: 20px;
-  padding-top: 30px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  /* padding: 20px;
+  padding-top: 30px; */
+  padding: 0;
+  margin: 0;
+  width:100%;
   font-family:Georgia, 'Times New Roman', Times, serif;
   background-color:aliceblue;
 }
@@ -57,3 +68,33 @@
   /* border-radius: 20px; */
   /* justify-content: center; */
 }
+
+
+/* Pagination styling */
+.pagination {
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.pagination button {
+  padding: 6px 12px;
+  font-size: 1rem;
+  border: none;
+  background-color:rgb(223, 222, 222);
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.pagination button:hover {
+  background-color:rgb(153, 152, 152);
+}
+
+/* .pagination button.active {
+  background-color: #007bff;
+  color: white;
+  font-weight: bold;
+} */
