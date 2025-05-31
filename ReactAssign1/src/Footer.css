@@ -1,0 +1,28 @@
+footer {
+  background-color: #001633;
+  color: white;
+  padding: 1rem 2rem;
+  width: 100%;
+  margin-top: 10px;
+  /* padding: 10px; */
+  position: relative;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  left:0;
+  right:0;
+  box-sizing: border-box;
+}
+
+.social-links a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+footer .footer-left {
+  font-weight: bold;
+}
+
+footer .footer-right {
+  display: flex;
+  gap: 1rem;
+}
