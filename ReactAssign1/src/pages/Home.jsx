@@ -27,8 +27,8 @@ const Home = () => {
   };
 
   return (
-    <div>
-      <h1 className="heading">Daily Bazaar</h1>
+    <div class="main-section">
+      <h1 className="heading"></h1>
       <div className="product-disp">
         {paginatedProducts.map((product) => (
           <ProductCard key={product.id} data={product} />
